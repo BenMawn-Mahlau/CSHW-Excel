@@ -1,5 +1,13 @@
 
 public class cell{
     private String location;
-    private data IData;
+    private IData value;
+
+    public IData getValue() {
+        return value;
+    }
+
+    public String getLocation() {
+        return location;
+    }
 }
