@@ -1,3 +1,8 @@
 public class Formula implements IData{
+    private String operation;
+    public IData mul(x,y){
+        return x * y;
+    }
+    public IData mod(x,y)
 
 }
